@@ -37,9 +37,9 @@ component{
 	this.version		= "3.0";
 	// Bootstrap theme integrated by:
 	this.author 		= "Tim Brown";
-	this.authorURL		= "https://github.com/chair9design";
+	this.authorURL		= "https://github.com/chair9design/contentbox-bootstrap3";
 	// ForgeBox slug if you want auto-update featuress
-	this.forgeBoxSlug	= "cblayouts-boostrap3";
+	this.forgeBoxSlug	= "cblayouts-boostrap3-starter";
 	// Screenshot URL, can be absolute or locally in your layout package.
 	//this.screenShotURL	= "screenshot.png";
 	// The custom interception points this layout announces, an array of event strings

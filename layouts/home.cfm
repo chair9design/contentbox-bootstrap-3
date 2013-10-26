@@ -36,11 +36,18 @@
     <![endif]-->
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="#cb.layoutRoot()#/includes/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Add custom CSS here -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="#cb.layoutRoot()#/includes/css/template.css" rel="stylesheet" type="text/css" />
+
+    <!--- Le fav and touch icons --->
+    <link rel="shortcut icon" href="#cb.layoutRoot()#/includes/img/favicon.ico">
+    <link rel="apple-touch-icon" href="#cb.layoutRoot()#/includes/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="#cb.layoutRoot()#/includes/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="#cb.layoutRoot()#/includes/img/apple-touch-icon-114x114.png">
+
+
   </head>
 
   <body>
@@ -294,6 +301,9 @@
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <!--- javascript --->
+    <script type="text/javascript" src="#cb.layoutRoot()#/includes/js/jquery.js"></script>
+    <script type="text/javascript" src="#cb.layoutRoot()#/includes/js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/modern-business.js"></script>
